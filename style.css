@@ -7,14 +7,44 @@ body {
   padding: 50px 0;
 }
 #chat .chat {
-  width: 600px;
+  width: 580px;
   height: 380px;
-  border-radius: 20px;
+  border-radius: 30px;
   background: linear-gradient(to right, #373B44, #73C8A9);
-  padding: 3 0px;
+  padding: 25px;
 }
 #chat .chat .message {
-  width: 430px;
-  height: 250px;
+  width: 530px;
+  height: 280px;
   border-radius: 20px;
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+#chat .chat .message .line {
+  width: 70px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #20452d;
+  color: white;
+  padding: 10px 15px;
+}
+#chat .chat input {
+  height: 40px;
+  border-radius: 20px;
+}
+#chat .chat .text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#chat .chat .text .sent {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #20452d;
+  color: white;
+  padding: 10px 35px;
+  margin-left: 15px;
+  font-size: 19px;
 }/*# sourceMappingURL=style.css.map */
