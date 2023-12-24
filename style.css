@@ -21,13 +21,16 @@ body {
   margin-bottom: 20px;
   padding: 10px;
 }
+#chat .chat .message div {
+  margin-bottom: 5px;
+}
 #chat .chat .message .line {
   width: 70px;
-  height: 40px;
+  height: 30px;
   border-radius: 20px;
   background-color: #20452d;
   color: white;
-  padding: 10px 15px;
+  padding: 5px 15px;
 }
 #chat .chat input {
   height: 40px;
@@ -47,4 +50,9 @@ body {
   padding: 10px 35px;
   margin-left: 15px;
   font-size: 19px;
+}
+#chat .chat .end {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */
