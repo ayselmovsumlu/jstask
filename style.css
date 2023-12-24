@@ -20,17 +20,17 @@ body {
   background-color: white;
   margin-bottom: 20px;
   padding: 10px;
+  overflow: hidden;
 }
 #chat .chat .message div {
   margin-bottom: 5px;
 }
 #chat .chat .message .line {
-  width: 70px;
-  height: 30px;
+  width: 80px;
   border-radius: 20px;
   background-color: #20452d;
   color: white;
-  padding: 5px 15px;
+  padding: 5px 10px;
 }
 #chat .chat input {
   height: 40px;
